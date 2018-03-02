@@ -23,6 +23,12 @@ MongoClient.connect(url, function(err, db) {
   {id: 12, name: 'Peach',price: 20,createdAt: '1-2-2018',updatedAt:'',seller:'Mariam'},
   {id: 13, name: 'Strawberry',price: 25,createdAt: '2-1-2018',updatedAt:'',seller:'Mariam'},
   {id: 14, name: 'Apricot',price: 30,createdAt: '1-1-2018',updatedAt:'',seller:'Mariam'},
+    {id: 1, name: 'p1',price: 100,seller:'mohamed hesham'},
+    {id: 2, name: 'p2',price: 200,seller:'mohamed hesham'},
+    {id: 3, name: 'p3',price: 300,seller:'mohamed hesham'},
+    {id: 4, name: 'p4',price: 400,seller:'mohamed hesham'},
+    {id: 5, name: 'p5',price: 500,seller:'mohamed hesham'},
+
   ];
 
   var usersObj = [
